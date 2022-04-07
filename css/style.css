@@ -67,7 +67,7 @@ img{
 	color: #fff;
 	transition: .4s ease;
 	font-family: 'Poppins', sans-serif;
- 	
+	
 }
 .nav-item a:hover{
 	color: #252c3a;
@@ -78,16 +78,17 @@ img{
 	color: #252c3a;
 
 }
-  
+
 /*header part start
 */
 #header{
 	position: relative;
 	float: left;
 	width: 100%;
-	background: url(../images/background.jpg);
+	background: url(../images/tokyo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	padding:100px 0 50px;
 }
 .wave{
@@ -176,16 +177,16 @@ img{
 
 }
 .up-down {
-    -webkit-animation: action 1s infinite  alternate;
-    animation: action 1s infinite  alternate;
+	-webkit-animation: action 1s infinite  alternate;
+	animation: action 1s infinite  alternate;
 }
-    @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-30px); }
+	@-webkit-keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-30px); }
 }
-    @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-30px); }
+	@keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-30px); }
 }
 
 
@@ -202,28 +203,28 @@ img{
 
 .bg-video {
 	margin-top: 100px;
-    width: 350px;
-    background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
-    box-shadow: 0 0 20px 0 rgba(0,0, 0,0.9);
+	width: 350px;
+	background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+	box-shadow: 0 0 20px 0 rgba(0,0, 0,0.9);
 }
 .bg-video img {
 	width: 350px;
-    position: relative; 
-    top:5%;
-    left: 10%;
-    
+	position: relative; 
+	top:5%;
+	left: 10%;
+	
 }
 /* .bg-video {
-    -webkit-animation: action 1s infinite  alternate;
-    animation: action 1s infinite  alternate;
+	-webkit-animation: action 1s infinite  alternate;
+	animation: action 1s infinite  alternate;
 } */
-    @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-50px); }
+	@-webkit-keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-50px); }
 }
-    @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-50px); }
+	@keyframes action {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-50px); }
 }
 
 .about-content{
@@ -268,7 +269,7 @@ img{
 	padding:10px;
 	transition:.4s ease;
 	font-family: 'Exo 2', sans-serif;
-  }
+}
 
 .about-content a button{
 	float:left;
@@ -482,12 +483,12 @@ img{
 .progress-controll{ 
 	margin: 50px 0 0;
 	background:  #fff;
-    box-shadow: 3px 8px 10px 2px #ddd;
+	box-shadow: 3px 8px 10px 2px #ddd;
 }
 .progress-controll1{ 
 	margin: 50px 0 0;
 	background:  #fff;
-    box-shadow: 3px 8px 10px 2px #ddd;
+	box-shadow: 3px 8px 10px 2px #ddd;
 }
 .progress-controll h2{ 
 	text-align: center;
@@ -544,11 +545,11 @@ img{
 	float: left;
 	width: 31%;
 	background: linear-gradient(225deg, #fff, #fff);
-    box-shadow: -5px 5px 13px #cccccc, 5px -5px 13px #f4f4f4;
-    border-bottom: 5px #3AA7D5 solid;
-    margin: 0 10px;
-    transition: .6s;
-    transform: scale(.9);
+	box-shadow: -5px 5px 13px #cccccc, 5px -5px 13px #f4f4f4;
+	border-bottom: 5px #3AA7D5 solid;
+	margin: 0 10px;
+	transition: .6s;
+	transform: scale(.9);
 }
 .projects-box:hover{
 	transform: scale(1);
@@ -615,13 +616,13 @@ counter part start
 	padding: 10px 0 0;
 }
 .counter-box span {
-    position: absolute;
-    top: 64%;
-    right: 0;
-    font-size: 30px;
-    color: #e02f36;
-    left: 53px;
-    bottom: 0;
+	position: absolute;
+	top: 64%;
+	right: 0;
+	font-size: 30px;
+	color: #e02f36;
+	left: 53px;
+	bottom: 0;
 }
 .counter-box p{
 	color: #333;
@@ -825,8 +826,8 @@ contact part start
 	width: 100%;
 	padding: 20px 20px 50px;
 	background: linear-gradient(225deg, #fff, #fff);
-    box-shadow: -5px 5px 13px #cccccc, 5px -5px 13px #f4f4f4;
-    border-bottom: 5px #25D8D3 solid;
+	box-shadow: -5px 5px 13px #cccccc, 5px -5px 13px #f4f4f4;
+	border-bottom: 5px #25D8D3 solid;
 }
 .pr-img{
 	float: left;
@@ -857,7 +858,6 @@ contact part start
 	border-radius: 5px;
 	transition: .6s;
 	background: #25D8D3;
-	
 	transition: .6s;
 }
 .pr-content a:hover{
@@ -877,7 +877,9 @@ contact part start
 	height: 50vh;
 	text-align: center;
 	color: #fff;
-	background: url(../images/gantas-vaiciulenas-KYW2sGJNsFU-unsplash.jpg);
+	background: url('../images/gantas-vaiciulenas-KYW2sGJNsFU-unsplash.jpg');
+	background-size: cover;
+	background-position: bottom;
 }
 
 .btn {
@@ -896,14 +898,14 @@ contact part start
 	padding: 17px 60px;
 	margin: 0 auto;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-  }
-  
-  .btn span {
+}
+
+.btn span {
 	position: relative; 
 	z-index: 1;
-  }
-  
-  .btn:after {
+}
+
+.btn:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -915,9 +917,9 @@ contact part start
 	transition: all .5s ease-in-out;
 	-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
 	transform: translateX(-98%) translateY(-25%) rotate(45deg);
-  }
-  
-  .btn:hover:after {
+}
+
+.btn:hover:after {
 	-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
 	transform: translateX(-9%) translateY(-25%) rotate(45deg);
-  }
+}
